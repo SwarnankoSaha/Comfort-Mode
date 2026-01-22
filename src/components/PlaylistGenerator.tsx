@@ -120,7 +120,7 @@ export const PlaylistGenerator = () => {
         >
           <Headphones className="w-5 h-5 text-primary" />
         </motion.div>
-        <h2 className="text-xl md:text-2xl font-bold text-foreground">
+        <h2 className="text-xl md:text-2xl text-foreground">
           Desi Comfort Playlists
         </h2>
       </div>
@@ -180,7 +180,7 @@ export const PlaylistGenerator = () => {
             >
               {playlist.emoji}
             </motion.span>
-            <p className="text-sm font-bold text-foreground">{playlist.name}</p>
+            <p className="text-sm text-foreground">{playlist.name}</p>
             {playlist.artist && (
               <p className="text-xs text-muted-foreground mt-1 opacity-80">
                 {playlist.artist}
@@ -219,7 +219,7 @@ export const PlaylistGenerator = () => {
                   {selectedPlaylist.emoji}
                 </motion.div>
                 <div className="flex-1">
-                  <h3 className="text-lg font-bold text-foreground mb-1 flex items-center gap-2">
+                  <h3 className="text-lg text-foreground mb-1 flex items-center gap-2">
                     {selectedPlaylist.name}
                     <Sparkles className="w-4 h-4 text-primary" />
                   </h3>

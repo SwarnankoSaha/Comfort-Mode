@@ -70,14 +70,14 @@ const Index = () => {
             >
               <a
                 href="#comfort"
-                className="group inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-primary to-accent text-primary-foreground rounded-full font-semibold shadow-lg shadow-primary/25 hover:shadow-xl hover:shadow-primary/30 transition-all duration-300 hover:-translate-y-1"
+                className="group inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-primary to-accent text-primary-foreground rounded-full shadow-lg shadow-primary/25 hover:shadow-xl hover:shadow-primary/30 transition-all duration-300 hover:-translate-y-1"
               >
                 <Heart className="w-5 h-5 group-hover:scale-110 transition-transform" />
                 Get Cozy
               </a>
               <a
                 href="#chocolates"
-                className="group inline-flex items-center gap-2 px-8 py-4 bg-background/50 backdrop-blur-sm border border-border/50 text-foreground rounded-full font-semibold hover:bg-background/80 transition-all duration-300 hover:-translate-y-1"
+                className="group inline-flex items-center gap-2 px-8 py-4 bg-background/50 backdrop-blur-sm border border-border/50 text-foreground rounded-full hover:bg-background/80 transition-all duration-300 hover:-translate-y-1"
               >
                 <ShoppingBag className="w-5 h-5 group-hover:scale-110 transition-transform" />
                 Browse Chocolates
@@ -120,7 +120,7 @@ const Index = () => {
                 <Heart className="w-4 h-4 text-primary" />
                 <span className="text-sm font-medium text-primary">Little Things</span>
               </div>
-              <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+              <h2 className="text-3xl md:text-4xl text-foreground mb-4">
                 Things I Wish I Could Do For You
               </h2>
               <p className="text-muted-foreground font-handwritten text-lg">
@@ -154,7 +154,7 @@ const Index = () => {
                 <ShoppingBag className="w-4 h-4 text-accent" />
                 <span className="text-sm font-medium text-accent">Survival Kit</span>
               </div>
-              <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+              <h2 className="text-3xl md:text-4xl text-foreground mb-4">
                 Chocolate Comfort Shelf 🍫
               </h2>
               <p className="text-muted-foreground font-handwritten text-lg">
@@ -188,7 +188,7 @@ const Index = () => {
                 <Music className="w-4 h-4 text-primary" />
                 <span className="text-sm font-medium text-primary">Mood Music</span>
               </div>
-              <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+              <h2 className="text-3xl md:text-4xl text-foreground mb-4">
                 Comfort Playlist Generator 🎧
               </h2>
               <p className="text-muted-foreground font-handwritten text-lg">

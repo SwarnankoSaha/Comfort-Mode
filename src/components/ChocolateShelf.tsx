@@ -118,7 +118,7 @@ export const ChocolateShelf = () => {
         >
           <Sparkles className="w-6 h-6 text-primary" />
         </motion.div>
-        <h2 className="text-xl md:text-2xl font-bold text-foreground">
+        <h2 className="text-xl md:text-2xl text-foreground">
           Chocolate Comfort Shelf
         </h2>
       </div>
@@ -215,7 +215,7 @@ export const ChocolateShelf = () => {
                     <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
                   </motion.div>
 
-                  <p className="text-sm font-bold text-foreground mb-3 line-clamp-2 h-10">
+                  <p className="text-sm text-foreground mb-3 line-clamp-2 h-10">
                     {chocolate.name}
                   </p>
 
@@ -228,7 +228,7 @@ export const ChocolateShelf = () => {
                     >
                       <Minus className="w-3 h-3" />
                     </Button>
-                    <span className="text-sm font-bold w-8 text-center">
+                    <span className="text-sm w-8 text-center">
                       {requests.find(r => r.chocolate.id === chocolate.id)?.quantity || 0}
                     </span>
                     <Button
@@ -246,7 +246,7 @@ export const ChocolateShelf = () => {
                     onClick={() => updateQuantity(chocolate.id, 1)}
                   >
                     <MessageCircle className="w-3 h-3" />
-                    <span className="text-xs font-semibold">I Want This</span>
+                    <span className="text-xs">I Want This</span>
                   </Button>
                 </div>
               </motion.div>
@@ -279,10 +279,10 @@ export const ChocolateShelf = () => {
                 >
                   <MessageCircle className="w-5 h-5 text-primary" />
                 </motion.div>
-                <h3 className="font-bold text-foreground text-lg">
+                <h3 className="text-foreground text-lg">
                   Chocolate Requests
                   <motion.span 
-                    className="ml-2 px-2 py-0.5 text-xs font-bold bg-primary/20 text-primary rounded-full"
+                    className="ml-2 px-2 py-0.5 text-xs bg-primary/20 text-primary rounded-full"
                     key={totalItems}
                     initial={{ scale: 1.3 }}
                     animate={{ scale: 1 }}
@@ -321,7 +321,7 @@ export const ChocolateShelf = () => {
                           <Minus className="w-3 h-3" />
                         </motion.button>
                         <motion.span 
-                          className="text-sm font-bold w-5 text-center"
+                          className="text-sm w-5 text-center"
                           key={item.quantity}
                           initial={{ scale: 1.3 }}
                           animate={{ scale: 1 }}
@@ -359,7 +359,7 @@ export const ChocolateShelf = () => {
                   size="sm"
                 >
                   <Send className="w-4 h-4" />
-                  <span className="text-sm font-semibold">Send to WhatsApp</span>
+                  <span className="text-sm">Send to WhatsApp</span>
                 </Button>
                 
                 <motion.p 

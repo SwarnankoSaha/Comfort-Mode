@@ -319,7 +319,7 @@ export const ComfortMusicGenerator = () => {
               <Music className="w-6 h-6 text-white" />
             </div>
             <div>
-              <h1 className="text-3xl font-bold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
+              <h1 className="text-foreground">
                 Comfort Music Generator
               </h1>
               <p className="text-muted-foreground flex items-center gap-2">
@@ -337,7 +337,7 @@ export const ComfortMusicGenerator = () => {
             <Card className="bg-white/90 backdrop-blur-xl border border-white/20 shadow-2xl">
               <CardHeader className="pb-4">
                 <div className="flex items-center justify-between">
-                  <CardTitle className="text-xl">Now Playing</CardTitle>
+                  <CardTitle>Now Playing</CardTitle>
                   <Button onClick={createPlaylist} size="sm" variant="outline">
                     <Plus className="w-4 h-4 mr-2" />
                     Create Playlist
@@ -356,10 +356,10 @@ export const ComfortMusicGenerator = () => {
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent flex items-end p-6">
                         <div className="text-white">
-                          <h3 className="text-2xl font-bold mb-1">{currentSong.title}</h3>
-                          <p className="text-lg opacity-90">{currentSong.artist}</p>
+                          <h3 className="mb-1">{currentSong.title}</h3>
+                          <p className="opacity-90">{currentSong.artist}</p>
                           <div className="flex items-center gap-2 mt-2">
-                            <span className="px-3 py-1 bg-white/20 backdrop-blur-sm text-white text-xs font-semibold rounded-full">
+                            <span className="px-3 py-1 bg-white/20 backdrop-blur-sm text-white text-xs rounded-full">
                               {currentSong.language.toUpperCase()}
                             </span>
                             <span className="text-sm">{currentSong.duration}</span>
@@ -406,7 +406,7 @@ export const ComfortMusicGenerator = () => {
                 ) : (
                   <div className="h-64 flex flex-col items-center justify-center text-muted-foreground">
                     <Music className="w-16 h-16 mb-4" />
-                    <p className="text-lg">Select a song to play</p>
+                    <p>Select a song to play</p>
                   </div>
                 )}
               </CardContent>
@@ -441,7 +441,7 @@ export const ComfortMusicGenerator = () => {
                   <div className="space-y-4 max-h-64 overflow-y-auto">
                     {searchResults.length > 0 && (
                       <div>
-                        <h4 className="font-semibold mb-2">Local Results</h4>
+                        <h4 className="mb-2">Local Results</h4>
                         <div className="space-y-2">
                           {searchResults.map((song) => (
                             <div key={song.id} onClick={() => playSong(song)} className="flex items-center gap-3 p-3 rounded-lg bg-indigo-50 hover:bg-indigo-100 cursor-pointer transition-colors">
@@ -464,7 +464,7 @@ export const ComfortMusicGenerator = () => {
                     
                     {spotifyResults.length > 0 && (
                       <div>
-                        <h4 className="font-semibold mb-2">Spotify Results</h4>
+                        <h4 className="mb-2">Spotify Results</h4>
                         <div className="space-y-2">
                           {spotifyResults.map((song) => (
                             <div key={song.id} className="flex items-center gap-3 p-3 rounded-lg bg-green-50 hover:bg-green-100 cursor-pointer transition-colors">

@@ -51,7 +51,7 @@ export const FinaleScreen = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3 }}
-          className="text-xl md:text-2xl lg:text-3xl font-bold text-foreground mb-4 leading-relaxed"
+          className="text-xl md:text-2xl lg:text-3xl text-foreground mb-4 leading-relaxed"
         >
           Can't fight your uterus,
           <br />

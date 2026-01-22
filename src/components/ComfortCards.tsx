@@ -69,7 +69,7 @@ export const ComfortCards = () => {
     <section className="w-full">
       <div className="flex items-center gap-2 mb-6">
         <Heart className="w-5 h-5 text-primary" />
-        <h2 className="text-xl md:text-2xl font-bold text-foreground">
+        <h2 className="text-xl md:text-2xl text-foreground">
           Things I Wish I Could Do For You Today
         </h2>
       </div>

@@ -57,13 +57,13 @@ const Index = () => {
                 <Heart className="w-4 h-4 sm:w-5 sm:h-5 text-white" />
               </div>
               <div className="hidden sm:block">
-                <h1 className="text-lg sm:text-xl font-bold bg-gradient-to-r from-rose-600 to-pink-600 bg-clip-text text-transparent">
+                <h1 className="text-foreground">
                   Period Pal
                 </h1>
                 <p className="text-xs text-muted-foreground hidden sm:block">Your comfort companion</p>
               </div>
               <div className="sm:hidden">
-                <h1 className="text-lg font-bold bg-gradient-to-r from-rose-600 to-pink-600 bg-clip-text text-transparent">
+                <h1 className="text-foreground">
                   Period Pal
                 </h1>
               </div>
@@ -164,7 +164,7 @@ const Index = () => {
                   <div className="p-2 sm:p-3 rounded-xl sm:rounded-2xl bg-gradient-to-br from-rose-400 to-pink-400 shadow-lg">
                     <Sparkles className="w-5 h-5 sm:w-6 sm:h-6 text-white animate-pulse" />
                   </div>
-                  <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold bg-gradient-to-r from-rose-600 to-pink-600 bg-clip-text text-transparent">
+                  <h2 className="text-foreground">
                     Welcome to Your Safe Space
                   </h2>
                 </div>
@@ -184,7 +184,7 @@ const Index = () => {
                   >
                     <div className="bg-gradient-to-br from-rose-100 to-pink-100 p-4 sm:p-6 rounded-xl sm:rounded-2xl border-2 border-rose-200 group-hover:border-rose-300 transition-all h-full">
                       <Heart className="w-6 h-6 sm:w-8 sm:h-8 text-rose-500 mx-auto mb-2 group-hover:scale-110 transition-transform" />
-                      <h3 className="font-semibold text-sm sm:text-base text-foreground">Comfort Zone</h3>
+                      <h3 className="text-sm sm:text-base text-foreground">Comfort Zone</h3>
                       <p className="text-xs sm:text-sm text-muted-foreground">Self-care activities</p>
                     </div>
                   </motion.div>
@@ -197,7 +197,7 @@ const Index = () => {
                   >
                     <div className="bg-gradient-to-br from-amber-100 to-orange-100 p-4 sm:p-6 rounded-xl sm:rounded-2xl border-2 border-amber-200 group-hover:border-amber-300 transition-all h-full">
                       <Cookie className="w-6 h-6 sm:w-8 sm:h-8 text-amber-600 mx-auto mb-2 group-hover:scale-110 transition-transform" />
-                      <h3 className="font-semibold text-sm sm:text-base text-foreground">Chocolate Shelf</h3>
+                      <h3 className="text-sm sm:text-base text-foreground">Chocolate Shelf</h3>
                       <p className="text-xs sm:text-sm text-muted-foreground">Treat yourself</p>
                     </div>
                   </motion.div>
@@ -210,7 +210,7 @@ const Index = () => {
                   >
                     <div className="bg-gradient-to-br from-purple-100 to-blue-100 p-4 sm:p-6 rounded-xl sm:rounded-2xl border-2 border-purple-200 group-hover:border-purple-300 transition-all h-full">
                       <Headphones className="w-6 h-6 sm:w-8 sm:h-8 text-purple-600 mx-auto mb-2 group-hover:scale-110 transition-transform" />
-                      <h3 className="font-semibold text-sm sm:text-base text-foreground">Music Therapy</h3>
+                      <h3 className="text-sm sm:text-base text-foreground">Music Therapy</h3>
                       <p className="text-xs sm:text-sm text-muted-foreground">Soothing melodies</p>
                     </div>
                   </motion.div>
@@ -222,7 +222,7 @@ const Index = () => {
                   >
                     <div className="bg-gradient-to-br from-green-100 to-teal-100 p-4 sm:p-6 rounded-xl sm:rounded-2xl border-2 border-green-200 h-full">
                       <Moon className="w-6 h-6 sm:w-8 sm:h-8 text-green-600 mx-auto mb-2" />
-                      <h3 className="font-semibold text-sm sm:text-base text-foreground">Coming Soon</h3>
+                      <h3 className="text-sm sm:text-base text-foreground">Coming Soon</h3>
                       <p className="text-xs sm:text-sm text-muted-foreground">More features</p>
                     </div>
                   </motion.div>
@@ -262,7 +262,7 @@ const Index = () => {
               >
                 <div className="inline-flex items-center gap-2 sm:gap-3 bg-white/90 backdrop-blur-xl border-2 border-white/20 rounded-full px-4 sm:px-6 py-2 sm:py-3 mb-4">
                   <Heart className="w-5 h-5 sm:w-6 sm:h-6 text-rose-500" />
-                  <span className="text-base sm:text-lg font-semibold bg-gradient-to-r from-rose-600 to-pink-600 bg-clip-text text-transparent">
+                  <span className="text-foreground">
                     Comfort Activities
                   </span>
                 </div>
@@ -300,7 +300,7 @@ const Index = () => {
               >
                 <div className="inline-flex items-center gap-2 sm:gap-3 bg-white/90 backdrop-blur-xl border-2 border-white/20 rounded-full px-4 sm:px-6 py-2 sm:py-3 mb-4">
                   <Cookie className="w-5 h-5 sm:w-6 sm:h-6 text-amber-600" />
-                  <span className="text-base sm:text-lg font-semibold bg-gradient-to-r from-amber-600 to-orange-600 bg-clip-text text-transparent">
+                  <span className="text-foreground">
                     Chocolate Comfort Shelf
                   </span>
                 </div>
